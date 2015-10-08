@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>myfirest blockGame</title>
+	<link type="text/css" rel="stylesheet" href="./css/style.css">
+	
+</head>
+<body>
+	<!-- your score -->
+	<span >
+		Your Scores:
+	</span>
+	<div id="game_bar">
+	</div>
+		
+		<button id="start" > Start Happy Game </button>
+		<button id="restart" > Restart Game </button>
+
+	<!-- 游戏盒子 -->
+	<div id="game_box">
+		<table id='game_table'>
+		</table>
+		<!-- 难度选择 -->
+		<div>
+		亲,小键盘控制砖块哦，请先选择游戏难度，进行游戏，如果死亡，可以选择新难度点击restart继续游戏哦。
+<button class="diffucult">简单</button>
+<button class="diffucult">一般</button>
+<button class="diffucult">难</button>
+<button class="diffucult">超级难</button>
+		</div>
+		<!-- 英雄榜 -->
+		<div  id='heroTop'>
+			<span>英雄榜分数:</span>
+			<ul class="scoreTop">
+				<span >第一名:</span>
+				<li class="scores">0
+				</li>
+				<span >第二名:</span>
+				<li class="scores">0
+				</li>
+				<span >第三名:</span>
+				<li class="scores">0
+				</li>
+				<span >第四名:</span>
+				<li class="scores">0
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/control.js">
+	</script>
+</body>
+</html>

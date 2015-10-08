@@ -1,0 +1,63 @@
+*{font-size: 14px;
+font-family:"Times New Roman",Georgia,Serif;}
+ul,li{list-style: none;}
+table,tr,td{
+	margin:0;
+	padding:0;
+	border:none;
+}
+#game_box{
+	border:1px solid #ccc;
+	width: 1000px;
+	overflow: hidden;
+	
+}
+#game_table{float: left;}
+#game_table tr{
+	display:block;
+}
+#game_table td{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border:1px solid #ccc;
+}
+#game_bar{
+	width: 100px;
+	height: 20px;
+	float: left;
+	display: inline-block;
+	border:1px solid #ccc;
+	
+}
+
+
+span{display:block;
+float: left;}
+
+
+
+.scoreTop{
+
+float: left;
+
+}
+
+
+
+#heroTop{
+	position: absolute;
+	float: left;
+	top: 200px;
+	left:570px;
+	width: 300px;
+	height: 200px;
+border: 1px red #CCCCCC;
+background-color: #CCCCCC
+}
+
+
+.diffucult{display: block;
+position: relative;
+left: 200px;
+margin-bottom:10px; }
